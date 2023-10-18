@@ -7,8 +7,11 @@ body {
     #8e8bdf,
     rgb(220, 166, 255)
   );
-  background-repeat: no-repeat;
-  /* width: 100%; */
+  background-repeat: repeat;
+  object-fit: contain;
+  /* /* width: 100%; */
+  top: 0;
+  z-index: -123;
   background-size: 100vw 100vh;
   /* overflow: hidden; */
 }
@@ -23,6 +26,7 @@ body {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  /* height: 100vh; */
   padding: 0;
   font-size: 90px;
   text-align: center;
@@ -69,7 +73,7 @@ h6 {
   display: flex;
 }
 .con-reg {
-  top: 30px;
+  top: 39px;
   margin: 0;
   margin-left: 5rem;
   z-index: 888;
@@ -91,4 +95,11 @@ img {
 }
 .center {
   margin: -6px 0px;
+}
+.parent-div {
+  display: flex;
+  border: 9px solid rgb(220, 166, 255);
+  border-radius: 35px;
+  padding: 0px 0px 0px 23px;
+  background-color: rgba(255, 255, 255, 0.2);
 }
