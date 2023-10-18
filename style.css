@@ -1,14 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  color: white;
+}
 body {
-  background-image: linear-gradient(
-    to bottom,
-    #020024,
-    #3e3a8a,
-    #8e8bdf,
-    rgb(220, 166, 255)
-  );
-  background-repeat: repeat;
-  object-fit: contain;
+  background-color: #0b1120;
+
   /* /* width: 100%; */
   top: 0;
   z-index: -123;
@@ -42,6 +38,7 @@ body {
   border-radius: 15px;
   padding: 10px 5px;
   font-size: 30px;
+  color: black;
 }
 .sub {
   font-size: 36px;
@@ -55,6 +52,7 @@ button {
   cursor: pointer;
 }
 .container {
+  /* min-width: 80vw; */
   max-height: 100vh;
   display: flex;
   justify-content: center;
@@ -66,7 +64,7 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 h6 {
-  /* margin-right: 10px; */
+  color: #a6a3e6;
   font-size: 23px;
 }
 .name-region {
@@ -83,6 +81,16 @@ h6 {
 .city-name {
   font-size: 48px;
   font-weight: 900;
+  background-image: linear-gradient(
+    to bottom,
+    #635fa7,
+    #3e3a8a,
+    #8e8bdf,
+    rgb(73, 40, 95),
+    rgb(109 26 162)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 img {
   width: 30vw;
@@ -101,5 +109,5 @@ img {
   border: 9px solid rgb(220, 166, 255);
   border-radius: 35px;
   padding: 0px 0px 0px 23px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(133, 133, 133, 0.2);
 }
