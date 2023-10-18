@@ -9,6 +9,7 @@ form.addEventListener("submit", (e) => {
     alert("Enter a city name");
     return false;
   }
+  div.innerHTML = `<dotlottie-player src="https://lottie.host/aacb7517-ef9d-4d5b-9499-44af09a0c767/vAuswnrSJy.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>`;
   //   console.log(input.value);
   axios
     .get(
